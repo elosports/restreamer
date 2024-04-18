@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_elosports_restreamer_1713426992390-pr-trigger-input-set
+  identifier: Build_elosports_restreamer_1713426992390prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_elosports_restreamer_1713426992390
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
