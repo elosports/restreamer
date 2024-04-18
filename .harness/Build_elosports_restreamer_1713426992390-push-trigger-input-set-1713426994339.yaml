@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_elosports_restreamer_1713426992390-push-trigger-input-set
+  identifier: Build_elosports_restreamer_1713426992390pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_elosports_restreamer_1713426992390
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
